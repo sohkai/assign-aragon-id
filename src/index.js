@@ -1,6 +1,6 @@
 const ENS = require('ethereum-ens')
 const Web3 = require('web3')
-const registrarAbi = require('@aragon/id/build/contracts/IFIFSResolvingRegistrar').abi
+const registrarAbi = require('@aragon/id/abi/IFIFSResolvingRegistrar').abi
 const parseArgs = require('./config')
 const { acceptedNetworks, networkConfigMap } = require('./network')
 
